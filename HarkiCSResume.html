@@ -23,7 +23,7 @@
       header#Title h2, p#Repo, p#Addr, p#Email {
         display: inline;
       } 
-
+      
       div.Label {
         text-align: center;
       } 
@@ -66,6 +66,9 @@
         margin-top: -1em;
       }
 
+      div.MoveEntryUpMore {
+        margin-top: -2em;
+      }
       p.MoveEntryUp {
         margin-top: -1em;
       }
@@ -76,28 +79,24 @@
 
     <div id="allcontent">
       <body>
-
         <header id="Title">
           <h2> Benjamin M. Harki, M.S. <br> </h2>
+
           <p id="Repo" 
             <a href = "https://github.com/chimson"> 
-            https://github.com/chimson
-            </a> 
+              https://github.com/chimson
+            </a>
           </p> <br>
+
           <p id="Addr">
             <p id="Email"> benjamin.harki@gmail.com </p> <br>
-            Chicago, IL <br>
+            Chicago, IL <br> 
             (304) 290-5836 <br>
           </p>
         </header>
 
         <section id="CareerStatement">
-          <div class="Label">
-            <hr>
-            <h4> PROFESSIONAL SUMMARY </h4>
-            <hr>
-          </div>
-          <p> Experienced programmer, mathematician, and educator who seeks to apply computer science, mathematics,
+          <p class="Indent"> Experienced programmer, mathematician, and educator who seeks to apply computer science, mathematics,
               problem solving, and teamwork ability to a technological solution.
           </p>
         </section>
@@ -108,21 +107,19 @@
             <h4> EDUCATION </h4>
             <hr>
           </div>
-
           <div class="SYTable">
             <div class="Row">
               <div class="ColLeft">
                 <p> <strong> DePaul University</strong>, Chicago, IL </p> 
               </div>
               <div class="ColRight">
-                <p> 2021 - Present </p>
+                <p> Expected: August 2023 </p>
               </div>
             </div>
           </div>
           <div class="EduBullets">
             <ul> 
               <li> Master's Student, Computer Science </li>  
-              <li> August 2023 (Anticipated Graduation) </li>
             </ul>
           </div>
         
@@ -133,7 +130,7 @@
                   <p> <strong> West Virginia University</strong>, Morgantown, WV </p> 
                 </div>
                 <div class="ColRight">
-                  <p> 2003 - 2011 </p>
+                  <p> May 2011 </p>
                 </div>
               </div>
             </div>
@@ -236,6 +233,9 @@
                   <li>
                     Visual Studio Tools
                   </li>
+                  <li>
+                    Web Communication through Berkley Sockets 
+                  </li>
                 </ul>
               </div>
               <div class="SkillsColRight">
@@ -248,7 +248,7 @@
                     Mitigating Program Vulnerabilities
                   </li>
                   <li>
-                    Tooling with Clang of LLVM Fuzzying, LLVM KLEE, Valgrind
+                    Tooling of LLVM Fuzzying, LLVM KLEE, Valgrind in Clang
                   </li>
                   <li>
                     Git and Perforce 
@@ -268,14 +268,13 @@
                   <!-- <li>
                     Distributed System Solutions and Cloud Computing 
                   </li> -->
-                  <!-- <li>
-                    Web Communication through Berkley Sockets 
-                  </li> -->
                 </ul>
               </div>
             </div>
           </div>
         </section>
+
+        <br>
 
         <section id="ExperienceInEducation">
           <div class="MoveEntryUp">
@@ -285,8 +284,18 @@
               <hr>
             </div>
 
-            <p> <strong> Professor in Mathematics </strong> </p>
-            <div class="MoveEntryUp"> 
+            <div class="SYTable">
+              <div class="Row">
+                <div class="ColLeft">
+                  <p> <strong> Professor in Mathematics </strong> </p>
+                </div>
+                <div class="ColRight">
+                  <p> 2012 - Present </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="MoveEntryUpMore"> 
               <ul>
                 <li>
                   Instructor for undergraduate math courses for over ten years, face-to-face, online and hybrid
@@ -301,8 +310,20 @@
               </ul>
             </div>
 
-            <p> <strong> Coordination of Mathematics Courses and Curriculum Development </strong> </p>
-            <div class="MoveEntryUp"> 
+            <div class="MoveEntryUp">
+              <div class="SYTable">
+                <div class="Row">
+                  <div class="ColLeft">
+                    <p> <strong> Coordination of Mathematics Courses and Curriculum Development </strong> </p>
+                  </div>
+                  <div class="ColRight">
+                    <p> 2017 - 2019 </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="MoveEntryUpMore"> 
               <ul>
                 <li>
                   Collaborated with 15+ math faculty to ensure proper course objective scheduling, organization,
@@ -327,6 +348,7 @@
         </section>
 
         
+        <br>
 
         <section id="Employment">  
           <div class="Label">
