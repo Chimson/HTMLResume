@@ -16,11 +16,11 @@
       header#Title {
         text-align: center;
       }
-      header#Title p#Email {
+      header#Title p#Email, p#Repo {
         text-decoration: underline;
         color: blue;
       }
-      header#Title h2, p#Addr, p#Email {
+      header#Title h2, p#Repo, p#Addr, p#Email {
         display: inline;
       } 
 
@@ -50,6 +50,14 @@
         text-align: right;
         width: 500px;
       }
+      div.SkillsColLeft {
+        display: table-cell;
+        width: 50%;
+      }
+      div.SkillsColRight {
+        display: table-cell;
+        width: 50%;
+      }
       div.EduBullets {
         margin-top: -2em;
       } 
@@ -57,7 +65,9 @@
       div.MoveEntryUp {
         margin-top: -1em;
       }
-
+      div.MoveEntryUpMore {
+        margin-top: -2em;
+      }
       p.MoveEntryUp {
         margin-top: -1em;
       }
@@ -71,11 +81,18 @@
 
         <header id="Title">
           <h2> Benjamin M. Harki, M.S. <br> </h2> 
+          
           <p id="Addr">
             4730 N. Hermitage Ave, Unit 2R, Chicago, IL 60640 <br>
+            (304) 290-5836 <br> 
             <p id="Email"> benjamin.harki@gmail.com </p> <br>
-            (304) 290-5836 <br>
+            <p id="Repo" 
+              <a href = "https://github.com/chimson"> 
+                https://github.com/chimson
+              </a>
+            </p> <br>          
           </p>
+          
         </header>
 
         <section id="Education">  
@@ -205,25 +222,14 @@
             <p class="MoveEntryUp"> Fairmont, WV </p>
             <div class="MoveEntryUp">
               <ul> 
-                <li> 
-                  Collaborate with mathematics assistant professors, adjunct faculty, Deans, 
-                  and Provost to ensure quality of all face-to-face and online mathematics courses  
-                </li>  
-                <li> 
-                  Develop and adjust curriculum to meet the needs of
-                  Pierpont degree programs and accreditation body
-                </li>
-                <li>
-                  Create master schedule of all mathematics courses and assign instructors
-                </li>
-                <li>
-                  Oversee all mathematics courses/instructors and resolve student-instructor conflicts
-                </li>
                 <li>
                   Instructor for mathematics courses including Applied Mathematics for Industry, 
                   Technical Mathematics, College Algebra, Mathematics for Business, and Fundamental 
                   Concepts in Mathematics
                 </li>
+                <li>
+                  Promoted to Coodinator and Assistant Professor in Mathematics in Fall 2017
+                </li> 
               </ul>
             </div>
           </div>
@@ -254,6 +260,28 @@
             <div class="SYTable">
               <div class="Row">
                 <div class="ColLeft">
+                  <p> <strong> Southern New Hampshire University </strong> </p> 
+                </div>
+                <div class="ColRight">
+                  <p> 2015 - 2017 </p>
+                </div>
+              </div>
+            </div>
+            <p class="MoveEntryUp"> <strong> Adjunct Instructor in Mathematics </strong> </p>  
+            <p class="MoveEntryUp"> Remote </p>
+            <div class="MoveEntryUp">
+              <ul> 
+                <li>  
+                  Instructor for online asynchronous 8-Week Differential Equations Courses  
+                </li> 
+              </ul>
+            </div>
+          </div> 
+
+          <div class="MoveEntryUp">
+            <div class="SYTable">
+              <div class="Row">
+                <div class="ColLeft">
                   <p> <strong> East West University </strong> </p> 
                 </div>
                 <div class="ColRight">
@@ -268,9 +296,6 @@
                 <li>  
                   Instructor for General Education Math, Intermediate Algebra, and College Algebra
                 </li> 
-                <li>
-                  Attended meetings with general education faculty
-                </li>
                 <li>
                   Worked closely with the Mathematics Coordinator and faculty for course consistency
                 </li> 
@@ -305,6 +330,29 @@
               </ul>
             </div>
           </div>
+
+          <div class="MoveEntryUp">
+            <div class="SYTable">
+              <div class="Row">
+                <div class="ColLeft">
+                  <p> <strong> Prairie State College </strong> </p> 
+                </div>
+                <div class="ColRight">
+                  <p> 2012 - 2014 </p>
+                </div>
+              </div>
+            </div>
+            <p class="MoveEntryUp"> <strong> Adjunct Instructor in Mathematics </strong> </p>  
+            <p class="MoveEntryUp"> Chicago Heights, IL </p>
+            <div class="MoveEntryUp">
+              <ul> 
+                <li>  
+                  Instructor for face-to-face undergraduate mathematics courses, including Differential Equations, Statistics, 1st Semester Calculus, 
+                  Finite Mathematics, and Geometry
+                </li> 
+              </ul>
+            </div>
+          </div>          
 
           <div class="MoveEntryUp">
             <div class="SYTable">
@@ -354,90 +402,64 @@
           </div>      
         </section>
 
-        <section id="CSSkills"> 
-          <div class="Label">
+        <section id="ExperienceInEducation">
+          <div class = "Label">
             <hr>
-            <h4> COMPUTER SCIENCE SKILLS</h4>
+            <h4> EXPERIENCE IN EDUCATION </h4>
             <hr>
           </div>
-          <ul> 
-            <li>
-              Advanced skill level in C, C++, Python, Java, C#, Rust, and MATLAB, PowerShell and intermediate 
-              skill level in Scala and Scheme programming languages
-            </li>
-            <li>
-              Written data structures and design patterns in multiple programming languages including Java, C++, and C#.
-            </li>
-            <li>
-              Very familiar with multiple systems languages that manage memory and experience with
-              assembly, LLVM bitcode, and Java bytecode. 
-            </li>
-            <li>
-              Experience using Clang and LLVM framework
-            </li>
-            <li>
-              Experience .NET, .NET MAUI, C#, XAML
-            </li>
-            <li>
-              Implemented a simple blockchain, multithreaded server, cache, and malloc programs 
-            </li>
-            <li>
-              Experienced in Linux Ubuntu, Win10/11, Office 365 and Google Applications,
-            </li>
-            <li>
-              Experience in Visual Studio, Visual Studio Code, Eclipse, Emacs, CodeLite 
-            </li>
-            <li>
-              git, Perforce
-            </li>
-            <li>
-              Experience in XML, XAML, LATEX, JSON
-            </li>
-            <li>
-              Experienced in genetic algorithm and neural network Artifical Intelligence algorithms  
-            </li>
-            <li>
-              Experience in algorithm theory and writing numerical algorithms for mathematical optimization
-              Also procedural, dynamic, and recursive programming.
-            </li>
-            <li>
-              Expert in Differential Equations (partial and ordinary) both in analysis and in 
-              finite element and finite difference approximation methods 
-            </li>
-            <li>
-              Experience writing in OOP, Functional Safe System Programming Paradigms.
-            </li>
-            <li>
-              Experience in HTML, CSS, and Javascript for Web Programming.
-            </li>
-            <li>
-              Experience Distributed System solutions, including handling inter-process 
-              communication through Berkley Sockets
-            </li>
-            <li>
-              Experience managing SQL databases, SQL programming language, and SQL queries,
-              and database theory
-            </li>
-            <li>
-              experience using fuzzying, LLVM Fuzzying, KLEE
-            </li>
-            <li>
-              experience in Program analysis fundamentals including control flow analysis, 
-              pointer analysis, analyzing and mitigating program vulnerabilities
-            </li>
-            <li>
-              experience developing software in a team. Software includes creating a video game 
-              in Unity, using CI/CD, Agile, ... methodologies
-              also unit testing in Java and Python
-            </li>
-            <li>
-              Model View View-Model
-            </li>
-            <li>
-              experince using Powershell to automate compilation and manage a file system
-            </li>
 
-          </ul>
+          <p> Coordinator of Mathematics Courses</p>
+          <div class="MoveEntryUp"> 
+            <ul>
+              <li> 
+                Collaborated with mathematics assistant professors, adjunct faculty, Deans, 
+                and Provost to ensure quality of all face-to-face and online mathematics courses  
+              </li>  
+              <li> 
+                Developed and adjused curriculum to meet the needs of
+                Pierpont degree programs and accreditation body
+              </li>
+              <li>
+                Oversaw all mathematics courses/instructors and resolved student-instructor conflicts
+              </li>
+              <li>
+                Very experienced in creating courses, assigning instructors, and adding student registration overrides for
+                approximately 30+ sections of math courses at Pierpont through BANNER 
+              </li>
+              <li>
+                Collaborated with 15+ math faculty to ensure proper course objective coverage, organization,
+                consistency, and quality of all math courses across all sections
+              </li>
+              <li>
+                Translated a section of Fundamental Concepts in Mathematics from a face-to-face course to an online
+                course, to be used as a master online course in Blackboard
+              </li>
+              <li>
+                Attended faculty senate and participated in committees in order to work closely with Pierpont program
+                coordinators and faculty
+              </li>
+              <li>
+                Attended a Higher Learning Commission workshop on general education assessment and helped develop
+                a quantitative literacy assessment for Pierpont C&TC
+              </li>
+              <li>
+                Created syllabi, homeworks, quizzes, and tests using Pearson’s MyMathLab, Knewton Alta, Hawkes
+                Learning System, LaTeX programming, and Microsoft Office 365
+              </li>
+            </ul>
+          </div>
+
+          <p> Instructor of Mathematics Courses</p>
+          <div class="MoveEntryUp"> 
+            <ul>
+              <li>
+                Created syllabi, homeworks, quizzes, and tests using Pearson’s MyMathLab, Knewton Alta, Hawkes
+                Learning System, LaTeX programming, and Microsoft Office 365
+              </li>
+            </ul>
+          </div>
+
         </section>
 
         <section id="ExperienceInResearch">
@@ -446,7 +468,24 @@
             <h4> EXPERIENCE IN RESEARCH</h4>
             <hr>
           </div>
-          
+
+          <p> Independent Study at DePaul University </p>
+          <div class="MoveEntryUp">
+            <ul> 
+              <li>
+                Supervised by Dr. Zhen Huang
+              </li>
+              <li>
+                Collecting results on the feasablility of instrumenting the AFL fuzzer so that
+                its mutation input is driven by a program's invariants instead of code coverage
+              </li>
+              <li>
+                Based on the work related to InvsCov, in which AFL fuzzes based on "likely invariants" 
+                but adapted to use the Senx invariant detector instead of Daikon
+              </li>
+            </ul>
+          </div>
+
           <p> Intern at West Virginia High Technology Foundation Consortium </p>
           <div class="MoveEntryUp">
             <ul> 
@@ -488,43 +527,126 @@
 
         </section>
 
-        <section id="ExperienceInEducation">
-          <div class = "Label">
+        <section id="CSSkills"> 
+          <div class="Label">
             <hr>
-            <h4> EXPERIENCE IN EDUCATION </h4>
+            <h4> COMPUTER SCIENCE SKILLS</h4>
             <hr>
           </div>
+          
+          <div class="SYTable"> 
+            <div class="Row">
+              <div class="SkillsColLeft">
+                <ul>
+                  <li>
+                    Python, Java, C#, F#
+                  </li>
+                  <!-- <li>
+                    Javascript and ReactJS framework
+                  </li> -->
+                  <li>
+                    C, C++, Rust 
+                  </li>
+                  <li>
+                    Powershell in Windows, Bash in Linux
+                  </li>
+                  <!-- <li>
+                    Quality Assurance processes with Java 
+                  </li> -->
+                  <li>
+                    Quality Assurance and Software Testing using JUnit, C# NUnit, Python unittest  
+                  </li>
+                  <li>
+                  	Software Coverage Testing and Mutation Testing
+                  </li> 
+                  <li>
+                    MATLAB numerical programming
+                  </li>
+                  <li>
+                    HTML and CSS 
+                  </li>
 
-          <p> Coordination of Mathematics Courses and Curriculum Development </p>
-          <div class="MoveEntryUp"> 
-            <ul>
-              <li>
-                Collaborated with 15+ math faculty to ensure proper course objective scheduling, organization,
-                consistency, and quality of all math courses across all sections
-              </li>
-              <li>
-                Very experienced in creating courses, assigning instructors, and adding student registration overrides for
-                approximately 30+ sections of math courses at Pierpont through BANNER 
-              </li>
-              <li>
-                Translated a section of Fundamental Concepts in Mathematics from a face-to-face course to an online
-                course, to be used as a master online course in Blackboard
-              </li>
-              <li>
-                Attended faculty senate and participated in committees in order to work closely with Pierpont program
-                coordinators and faculty
-              </li>
-              <li>
-                Attended a Higher Learning Commission workshop on general education assessment and helped develop
-                a quantitative literacy assessment for Pierpont C&TC
-              </li>
-              <li>
-                Created syllabi, homeworks, quizzes, and tests using Pearson’s MyMathLab, Knewton Alta, Hawkes
-                Learning System, LaTeX programming, and Microsoft Office 365
-              </li>
-            </ul>
+                  <!-- <li>
+                    Procedural, OOP, Functional, Symbolic, and Safe System Programming Paradigms
+                  </li> -->
+                  <li>
+                    .NET, .NET MAUI, and XAML
+                  </li> 
+                  <li>
+                    Software Engineering Team methodologies of DevOps, Agile, CI/CD
+                  </li>             
+                  <!-- <li>
+                    Unit Testing with  JUnit, Python Unittest, Unity Test, Visual Studio Test Tools
+                  </li> -->
+                  <!-- <li>
+                    Software Engineering Architectures of Model View View-Model, Model View Controller, Model View Adapter
+                  </li> -->
+                  <!-- <li>
+                    Data Stuctures, Algorithms and Design Patterns
+                  </li> -->
+                  <!-- <li>
+                    Concurrency and Parallel Execution
+                  </li> -->
+                  <!-- <li>
+                    Programming a Simple Blockchain, Multithreaded Server, Cache, and Malloc and Free programs 
+                  </li> -->
+                  <li>
+                    Unity and Mono C# 
+                  </li>
+                  <!-- <li>
+                    Assembly, LLVM bitcode, and Java bytecode
+                  </li> -->
+                  <!-- <li>
+                    Unix, Linux Ubuntu, Win10/11 
+                  </li> -->
+                  <!-- <li>
+                    XML, XAML, LATEX, JSON markup/object notation
+                  </li> -->
+                  <!-- <li>
+                    Office 365 and Goosgle Applications
+                  </li> -->
+                  <li>
+                    Visual Studio Tools
+                  </li>
+
+                </ul>
+              </div>
+              <div class="SkillsColRight">
+                <ul>
+<!--                  <li>-->
+<!--                    Clang and LLVM Project-->
+<!--                  </li>-->
+                  <li>
+                    Program Analysis and Control Flow Analysis
+                  </li>
+                  <li>
+                    Tooling of LLVM Fuzzying, LLVM KLEE, AFL Fuzzying, and Valgrind
+                  </li>
+                  <li>
+                    Git and Perforce 
+                  </li>
+                  <li>
+                    Algorithm theory, Numerical Analysis, and Theory of Computation
+                  </li>
+                  <li>
+                    Differential Equations, Finite Element and Finite Difference Methods 
+                  </li>
+                  <li>
+                    Genetic Algorithm, Neural Network Machine Learning AI algorithms
+                  </li>
+                  <li>
+                    SQL databases, programming, queries, and Database Theory
+                  </li>
+                  <!-- <li>
+                    Distributed System Solutions and Cloud Computing 
+                  </li> -->
+                  <li>
+                    Distrubuted Systems Web Communication 
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-
         </section>
 
       </body>
